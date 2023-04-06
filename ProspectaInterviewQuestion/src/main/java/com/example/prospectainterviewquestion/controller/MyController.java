@@ -33,7 +33,7 @@ public class MyController {
 
         List<Entry> list = data.getEntries();
 
-        System.out.println(list);
+
 
         List<ResponseDto> result= list.stream()
                 .filter(e -> e.getCategory()
